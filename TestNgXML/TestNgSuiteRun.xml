@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="desktop" parallel="tests" thread-count="2">
+
+	<test name="InventoryTest">
+		<classes>
+			<class
+				name="com.aspireapp.automation.test.InventoryTest" />
+		</classes>
+	</test>
+
+	<test name="LoginTest">
+		<classes>
+			<class
+				name="com.aspireapp.automation.test.LoginTest" />
+		</classes>
+	</test>
+
+</suite>
